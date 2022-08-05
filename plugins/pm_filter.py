@@ -282,7 +282,7 @@ await message.reply(text=f"<b>Deployed by : <a href='https://t.me/Mxdhxv_Smarty'
 
 
 
-        elif query.data.startswith("subinps"):
+        elif query.data.startswith("Mxdhxv_Smarty"):
             ident, file_id = query.data.split("#")
             filedetails = await get_file_details(file_id)
             for files in filedetails:
